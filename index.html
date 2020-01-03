@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic-Tac-Toe</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+
+    
+  <div class="board">
+    <h2 id="name">Tic-Tac-Toe</h2>
+    <div id="row1">
+      <div id="0" onclick="play(this);">&nbsp;</div>
+      <div id="1" onclick="play(this);">&nbsp;</div>
+      <div id="2" onclick="play(this);">&nbsp;</div>
+    </div>
+    <div id="row2">
+      <div id="3" onclick="play(this);">&nbsp;</div>
+      <div id="4" onclick="play(this);">&nbsp;</div>
+      <div id="5" onclick="play(this);">&nbsp;</div>
+    </div>
+    <div id="row3">
+      <div id="6" onclick="play(this);">&nbsp;</div>
+      <div id="7" onclick="play(this);">&nbsp;</div>
+      <div id="8" onclick="play(this);">&nbsp;</div>
+    </div>
+  </div>
+  <br>
+  <div id="text"></div>
+	<br>
+  <br>
+	<button id="game-reset" onclick="reset();">Reset</button>
+	<a href="https://www.wikihow.com/Play-Tic-Tac-Toe" id="howto">
+		<button id="htp">How to Play</button>
+	</a>
+</body>
+</html>
